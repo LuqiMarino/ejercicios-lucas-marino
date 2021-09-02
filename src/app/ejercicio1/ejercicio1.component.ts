@@ -25,7 +25,7 @@ export class Ejercicio1Component implements OnInit {
     
   }
 
-  public Limpiar():void{    
+  public Limpiar():void{   
     (<HTMLInputElement>document.getElementById("edad1")).value = "";
     (<HTMLInputElement>document.getElementById("edad2")).value = "";
     (<HTMLInputElement>document.getElementById("prom")).value = "";

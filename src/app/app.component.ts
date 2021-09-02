@@ -9,13 +9,8 @@ import { Routes, RouterModule } from '@angular/router';
 })
 export class AppComponent {
   title = 'Marino Lucas';
-  myUsuario:Usuario;  
 
-  constructor(private router:RouterModule){
-    this.myUsuario = new Usuario();
-    this.myUsuario.nombre = "Lucas";
-    this.myUsuario.apellido = "Marino";
-  }
+  constructor(){ }
 
   Saludar(){
     this.title = 'Lucas Marino';

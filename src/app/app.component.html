@@ -1,4 +1,4 @@
-<router-outlet></router-outlet>
+
 <!-- <h1>holamun2</h1>
 <br>
 Titulo: {{title}}
@@ -14,11 +14,13 @@ Nombre del usuario: {{myUsuario.nombre}}
 
 <input type="button" (click)="IrAEjercicio1()" value="Ejercicio 1">
 <br> -->
-<div >
-    <a routerLink="" routerLinkActive="active">Inicio</a><br><br><br>
-    <a routerLink="ejercicio1" routerLinkActive="active">Ejercicio 1</a><br><br><br>
-    <a routerLink="" routerLinkActive="active">Ejercicio 2</a><br><br><br>
-    <a routerLink="" routerLinkActive="active">Ejercicio 3</a><br><br><br>
-    <a routerLink="" routerLinkActive="active">Ejercicio 4</a><br><br><br>
-    <a routerLink="" routerLinkActive="active">Ejercicio 5</a><br><br><br>
-</div>
+    <router-outlet></router-outlet>
+    <div id="menu">
+        <a routerLink="" routerLinkActive="active">Inicio</a><br><br><br>
+        <a routerLink="ejercicio1" routerLinkActive="active">Ejercicio 1</a><br><br><br>
+        <a routerLink="" routerLinkActive="active">Ejercicio 2</a><br><br><br>
+        <a routerLink="" routerLinkActive="active">Ejercicio 3</a><br><br><br>
+        <a routerLink="" routerLinkActive="active">Ejercicio 4</a><br><br><br>
+        <a routerLink="" routerLinkActive="active">Ejercicio 5</a><br><br><br>
+        
+    </div>

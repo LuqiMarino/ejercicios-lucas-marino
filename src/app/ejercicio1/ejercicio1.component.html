@@ -1,18 +1,18 @@
 <div id="divPrincipal">
-    <h1>EJERCICIO 1</h1>
-    <label>Ingrese edad 1: </label>
-    <input type="text" id="edad1" [(ngModel)]="edad1"><br><br>
-    <label>Ingrese edad 2: </label>
-    <input type="text" id="edad2" [(ngModel)]="edad2">
+    <h1 style="color: red; text-decoration: underline;">EJERCICIO 1</h1><br><br><br>
+    <label class="lbl">Ingrese edad 1 </label><br>
+    <input type="number" id="edad1" [(ngModel)]="edad1" class="txt"><br><br>
+    <label class="lbl">Ingrese edad 2 </label><br>
+    <input type="number" id="edad2" [(ngModel)]="edad2" class="txt">
     <br><br>
     <button (click)="CalcularPromedio()" class="btn">Calcular</button>
     <button (click)="Limpiar()" class="btn">Limpiar</button>
     
     <br><br>
-    <label>PROMEDIO: </label>
-    <input type="text" id="prom" [(ngModel)]="prom" disabled>
+    <label class="lbl">Promedio </label><br>
+    <input type="text" id="prom" [(ngModel)]="prom" class="txt" disabled>
     
     <br>
-    <label>SUMA: </label>
-    <input type="text" id="suma" [(ngModel)]="suma" disabled>
+    <label class="lbl">Suma </label><br>
+    <input type="text" id="suma" [(ngModel)]="suma" class="txt" disabled>
 </div>

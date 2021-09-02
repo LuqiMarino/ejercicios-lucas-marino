@@ -1,16 +1,27 @@
 .btn{
     background-color: greenyellow;
-    margin-right: 40px;
+    margin-right: 10px;
     width: 100px;
     height: 50px;
     font-weight: bold;
     font-size: large;
     border: 2px solid black;
     border-radius: 10%;
+    box-shadow: 0 5px #999;
+    cursor: pointer;
 }
 
 #divPrincipal{
-    right: 10%;
-    position: static;
+    right: 45%;
+    position: fixed;
     z-index: 99;
+}
+
+.txt{
+    width: 200px;
+}
+
+.lbl{
+    font-size: 18px;
+    font-weight: bold;
 }
